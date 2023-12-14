@@ -7,7 +7,7 @@ dotenv.config();
 const { ETH_SEPOILA_URL, PRIVATE_KEY = "" } = process.env;
 
 const config: HardhatUserConfig = {
-  solidity: "0.8.19",
+  solidity: "0.8.20",
   networks: {
     sepolia: {
       url: ETH_SEPOILA_URL,
